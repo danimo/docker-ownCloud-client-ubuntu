@@ -6,3 +6,4 @@ RUN apt update
 RUN apt-get build-dep -y owncloud-client
 RUN apt install -y build-essential cmake
 RUN apt install -y libsqlite3-dev
+RUN apt install -y libssl-dev
