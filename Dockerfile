@@ -5,3 +5,4 @@ RUN wget -O- http://download.opensuse.org/repositories/isv:ownCloud:desktop/xUbu
 RUN apt update
 RUN apt-get build-dep -y owncloud-client
 RUN apt install -y build-essential cmake
+RUN apt install -y libsqlite3-dev
